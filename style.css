@@ -1,0 +1,233 @@
+.alert_top_text{
+    background-color:#007aff;
+    padding: 10px;
+    color:#fff;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+.alert_top_text p{
+    color:#fff;
+    margin-bottom: 0 !important;
+}
+header .container-cs-lg{
+    width:95%;
+    margin:0 auto;
+}
+header ul li{
+    display:inline-block;
+}
+header ul li a{
+    color: #555;
+    font-weight: bold;
+    padding: 0 10px;
+}
+header ul li a:hover{
+    color:#555;
+}
+.nav_bar{
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+.nav_bar i,.nav_bar .logo img{
+    margin-right: 10px;
+}
+.nav_bar .logo img{
+    width: 115px;
+}
+.nav_bar input{
+    border: none;
+    outline: none;
+    font-size: 15px;
+    width: 190px;
+    padding: 7px 30px 8px;
+    -webkit-transition: width .2s;
+    transition: width .2s;
+    background: #f9f9f9;
+    border: 0;
+    border-radius: 5px;
+}
+
+.route_display{
+    margin-bottom: 30px;
+}
+.route_display p{
+    font-size: 13px;
+}
+.route_display p a{
+    color: #007aff;
+}
+.route_display p a:hover{
+    text-decoration: underline;
+}
+.heading{
+    font-size: 32px;
+    line-height: normal;
+    width: 100%;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.background_img{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto 30px;
+}
+
+.about-service {
+    padding: 10px 15px 10px 25px;
+    background: #e2f2fd;
+    margin-bottom: 20px;
+}
+
+.about-service p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 14px;
+}
+
+.search_box{
+    margin-bottom: 40px;
+    padding: 20px 20px 15px;
+    background: #f4f4f8;
+}
+.heading_2{
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+    margin: 16px 20px 20px 0;
+    vertical-align: top;
+}
+.search_box select:hover{
+    border: 1px solid #bbb;
+}
+.search_box select{
+    background: url(./images/arrow.png) no-repeat 94% 50% #fff;
+    background-size: 11px;
+    -webkit-appearance: none;
+    font-size: 16px;
+    width: 250px;
+    padding: 15px 12px;
+    cursor: pointer;
+    color: #222;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    outline: none;
+}
+
+.slide_content{
+    display: none;
+    margin-top: 11px;
+    padding-left: 0;
+}
+.slideClick{
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+    display: block;
+    padding: 22px 15px;
+    color: #222;
+    font-size: 16px;
+    border-bottom: 1px solid #ebebeb;
+}
+.slideClick:hover{
+    background: #f4f4f8;
+}
+.slide_content p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 1rem;
+}
+.slide_content li{
+    margin-bottom: 10px !important;
+    padding-top: 0;
+    line-height: 30px;
+    list-style: auto;
+}
+.slide_content ol{
+    margin: 20px 0;
+    padding-left: 20px;
+}
+.slide_content a {
+   color: #027bff!important;
+}
+.cargo{
+    background: #FFFDE4;
+    color: #222222;
+    padding: 10px;
+}
+.cargo p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 14px;
+}
+
+.single_state{
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    width: 134px;
+    margin: 7px auto 0;
+}
+.single_state p{
+    color: #777!important;
+}
+.single_state i{
+    font-size: 28px;
+    color: #777;
+}
+.ig-footer-site-list li{
+    line-height: 24px;
+    padding-bottom: 7px;
+}
+.ig-footer-site-list li a{
+    font-size: 15px;
+    color: #666;
+}
+.ig-footer-site-list li a:hover{
+    text-decoration: underline;
+}
+.ig-footer-social-list a {
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 34px;
+    height: 34px;
+    padding: 5px;
+    text-align: center;
+    color: #666;
+    border-radius: 50%;
+}
+.ig-footer-social-list a i {
+    display: inline-block;
+    padding-top: 3px;
+    font-size: 20px;
+}
+
+.image_part img{
+    margin-bottom: 1rem;
+}
+.image_part h6{
+    font-weight: 700;
+    display: block;
+    margin-bottom: 13px;
+}
+.download img{
+    max-width: 150px;
+    max-height: 50px;
+    display: block;
+    margin-bottom: .5rem;
+}
+img.wh-150,.award img{
+    display: block;
+    max-width: 170px;
+    max-height: 50px;
+}
+.award img{
+    max-width: 200px;
+}
+.copyright_text{
+    font-size: 15px;
+    font-weight: 600;
+    margin: 4px 0 0 35px;
+    color: #666;
+}
