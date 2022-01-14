@@ -1,5 +1,10 @@
-function alertClose(){
-    document.getElementById("alert_text").style.display = "none";
+function alertClose(id){
+    document.getElementById(id).style.display = "none";
+}
+// left menu open/close
+
+function leftMenuControl(id) {
+    document.getElementById(id).classList.toggle("active");
 }
 
 $(document).ready(function(){
@@ -42,3 +47,4 @@ function slideControl(clickId,contentId){
         $("#"+contentId).slideToggle();
     });
 }
+

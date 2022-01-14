@@ -21,7 +21,7 @@
       <div id="alert_text" class="alert_top_text">
         <div class="container-cs-lg">
           <p>
-            <span class="me-3" onclick="alertClose()"
+            <span class="me-3" onclick="alertClose('alert_text')"
               ><i class="fas fa-times"></i
             ></span>
             Your lean, clean flying machine is ready for take-off
@@ -31,7 +31,7 @@
       <div class="container-cs-lg">
         <div class="nav_bar d-flex justify-content-between align-items-center">
           <div class="logo">
-            <i class="fas fa-bars"></i>
+            <i class="fas fa-bars" onclick="leftMenuControl('left_menu_toggle')"></i>
             <img src="./images/logo.svg" alt="" />
             <input type="text" placeholder="Search FAQs" />
           </div>
@@ -52,6 +52,210 @@
         </div>
       </div>
     </header>
+
+    <!-- left menu -->
+
+    <div class="left_menu" id="left_menu_toggle">
+      <div class="left_menu_header d-flex align-items-center">
+        <a href="#" class="head">
+          <span class="user">
+            <i class="fas fa-user"></i>
+          </span>
+          <span class="text">Login/Signup</span>
+          <i class="fas fa-chevron-right"></i>
+        </a>
+      </div>
+      <a
+        onclick="leftMenuControl('left_menu_toggle')"
+        href="#"
+        role="button"
+        class="close_btn"
+      >
+        <i class="fas fa-times"></i>
+      </a>
+      <div class="bg_shadow"></div>
+      <ul class="left_menu_item">
+        <li class="mega-menu-heading topNavItem sme-anonymous-cls a_tag">
+          FLIGHTS
+        </li>
+        <li class="agent-cls corporate-cls member-cls anonymous-cls check-cls">
+          <a href="#" target="_self" title="Book a Flight" class="menu-item">
+            <i class="icon-book-flight"></i>
+            Book a Flight
+          </a>
+        </li>
+
+        <li class="member-cls anonymous-cls check-cls">
+          <a href="#" target="_self" title="Web Check-in" class="menu-item">
+            <i class="icon-check-in"></i>
+            Web Check-in
+          </a>
+        </li>
+
+        <li class="agent-cls corporate-cls member-cls anonymous-cls check-cls">
+          <a href="#" target="_self" title="Flight Status" class="menu-item">
+            <i class="icon-flight-status"></i>
+            Flight Status
+          </a>
+        </li>
+
+        <li class="agent-cls corporate-cls member-cls anonymous-cls check-cls">
+          <a
+            href="#"
+            target="_self"
+            title="View/Edit Booking(s)"
+            class="menu-item"
+          >
+            <i class="icon-modify"></i>
+            View/Edit Booking(s)
+          </a>
+        </li>
+
+        <li
+          class="agent-cls corporate-cls member-cls anonymous-cls check-cls sme-admin-user-cls"
+        >
+          <a href="#" title="Update Contact Details" class="menu-item">
+            <i class="icon-update-contact-details"></i>
+            Update Contact Details
+          </a>
+        </li>
+
+        <li
+          class="agent-cls corporate-cls member-cls anonymous-cls check-cls sme-admin-user-cls"
+        >
+          <a href="#" title="View GST Invoice" class="menu-item">
+            <i class="icon-view-gst-invoice"></i>
+            View GST Invoice
+          </a>
+        </li>
+
+        <li
+          class="agent-cls corporate-cls member-cls anonymous-cls check-cls sme-admin-user-cls"
+        >
+          <a href="#" title="Check Refund Status" class="menu-item">
+            <i class="icon-Refund-034"></i>
+            Check Refund Status
+          </a>
+        </li>
+
+        <li class="agent-cls corporate-cls check-cls anonymous-cls">
+          <a href="#" class="menu-item">
+            <i class="icon-partner-corporate"></i>
+            Partner Login
+          </a>
+        </li>
+
+        <li class="agent-cls corporate-cls check-cls anonymous-cls">
+          <a href="#">
+            <i class="icon-ic-Credit-Shell-Claim-Interest2"></i>
+            Interest on credit shell
+          </a>
+        </li>
+
+        <div class="bg_shadow"></div>
+
+        <li class="mega-menu-heading topNavItem sme-anonymous-cls a_tag">
+          Services &amp; Offers
+        </li>
+
+        <li class="agent-cls corporate-cls member-cls anonymous-cls check-cls">
+          <a href="#" title="6E Rewards" class="menu-item">
+            <i class="icon-ic6ERewards"></i>
+            6E Rewards
+          </a>
+        </li>
+
+        <li class="agent-cls corporate-cls member-cls anonymous-cls check-cls">
+          <a href="#" title="Hotels" class="menu-item">
+            <i class="icon-hotels"></i>
+            Hotels
+          </a>
+        </li>
+
+        <li class="agent-cls corporate-cls member-cls anonymous-cls check-cls">
+          <a href="#" title="Offers" class="menu-item">
+            <i class="icon-promotions"></i>
+            Offers
+          </a>
+        </li>
+
+        <li class="agent-cls corporate-cls member-cls anonymous-cls check-cls">
+          <a href="#" title="Our Destinations" class="menu-item">
+            <i class="icon-destinations"></i>
+            Our Destinations
+          </a>
+        </li>
+
+        <li class="agent-cls corporate-cls member-cls anonymous-cls check-cls">
+          <a href="#" title="CarGo Services" class="menu-item">
+            <i class="icon-cargo"></i>
+            CarGo Services
+          </a>
+        </li>
+
+        <li class="member-cls anonymous-cls check-cls">
+          <a href="#" title="Group Booking(s)" class="menu-item">
+            <i class="icon-group-booking"></i>
+            Group Booking(s)
+          </a>
+        </li>
+
+        <li class="agent-cls corporate-cls member-cls anonymous-cls check-cls">
+          <a href="#" title="Rent a car" class="menu-item">
+            <i class="icon-ic-car"></i>
+            Rent a car
+          </a>
+        </li>
+        <div class="bg_shadow"></div>
+        <li class="mega-menu-heading topNavItem sme-anonymous-cls a_tag">
+          INFORMATION ON THE GO
+        </li>
+        <li class="agent-cls corporate-cls member-cls anonymous-cls check-cls">
+          <a href="#" title="Rent a car" class="menu-item">
+            <i class="icon-ic-car"></i>
+            FAQs
+          </a>
+        </li>
+        <li class="agent-cls corporate-cls member-cls anonymous-cls check-cls">
+          <a href="#" title="Rent a car" class="menu-item">
+            <i class="icon-ic-car"></i>
+            Special Assistance
+          </a>
+        </li>
+        <div class="bg_shadow"></div>
+        <li class="mega-menu-heading topNavItem sme-anonymous-cls a_tag">
+          OTHERS
+        </li>
+
+        <li class="agent-cls corporate-cls member-cls anonymous-cls check-cls">
+          <a href="#" title="Rent a car" class="menu-item">
+            <i class="icon-ic-car"></i>
+            Weather advisory
+          </a>
+        </li>
+
+        <li class="agent-cls corporate-cls member-cls anonymous-cls check-cls">
+          <a href="#" title="Rent a car" class="menu-item">
+            <i class="icon-ic-car"></i>
+            Careers
+          </a>
+        </li>
+
+        <li class="agent-cls corporate-cls member-cls anonymous-cls check-cls">
+          <a href="#" title="Rent a car" class="menu-item">
+            <i class="icon-ic-car"></i>
+            Download App
+          </a>
+        </li>
+
+        <li class="agent-cls corporate-cls member-cls anonymous-cls check-cls">
+          <a href="#" title="Rent a car" class="menu-item">
+            <i class="icon-ic-car"></i>
+            Contact Us
+          </a>
+        </li>
+      </ul>
+    </div>
 
     <div class="container">
       <div class="route_display">
@@ -3530,11 +3734,13 @@
         </div>
       </div>
 
-      <hr>
+      <hr />
     </div>
 
     <footer class="container">
-      <p class="copyright_text">Ⓒ Copyright 2021 IndiGo. All rights reserved.</p>
+      <p class="copyright_text">
+        Ⓒ Copyright 2021 IndiGo. All rights reserved.
+      </p>
     </footer>
 
     <!-- javascript -->
